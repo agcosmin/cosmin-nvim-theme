@@ -115,7 +115,7 @@ def main():
     treesitter['TSAttribute'] = Hi(Color(purple0, None))
     treesitter['TSBoolean'] = Hi(Color(yellow0, None))
     treesitter['TSCharacter'] = Hi(Color(orange0, None))
-    treesitter['TSComment'] = Hi(Color(gray6, None))
+    treesitter['TSComment'] = Hi(Color(gray4, None))
     treesitter['TSConditional'] = Hi(Color(blue1, None))
     treesitter['TSConstant'] = Hi(Color(yellow0, None, 'nocombine'))
     treesitter['TSConstBuiltin'] = Hi(Color(yellow0, None))
@@ -203,7 +203,7 @@ def main():
     common['SpecialChar'] = Hi()
     common['Tag'] = treesitter['TSTag']
     common['Delimiter'] = treesitter['TSPunctDelimiter']
-    common['SpecialComment'] = Hi()
+    common['SpecialComment'] = treesitter['TSComment']
     common['Debug'] = Hi()
     common['Underlined'] = Hi()
     common['Ignore'] = Hi()

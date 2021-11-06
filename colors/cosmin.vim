@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: N/A <N/A>
-" Last Change: 2021:11:01
+" Last Change: 2021:11:06
 
 set bg=dark
 hi clear
@@ -69,7 +69,7 @@ hi WildMenu guifg=#8e6549 guibg=#191919 gui=bold guisp=NONE ctermfg=NONE ctermbg
 hi TSAttribute guifg=#c31ed6 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSBoolean guifg=#d6d61e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSCharacter guifg=#d6631e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi TSComment guifg=#8e8e8e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi TSComment guifg=#606060 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSConditional guifg=#1ea2d6 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSConstant guifg=#d6d61e guibg=NONE gui=nocombine guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSConstBuiltin guifg=#d6d61e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -126,7 +126,7 @@ hi TSType guifg=NONE guibg=NONE gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE ct
 hi TSTypeBuiltin guifg=#e8e8e8 guibg=NONE gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSVariable guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSVariableBuiltin guifg=#e8e8e8 guibg=NONE gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi Comment guifg=#8e8e8e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi Comment guifg=#606060 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Constant guifg=#d6d61e guibg=NONE gui=nocombine guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi String guifg=#7fc164 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Character guifg=#d6631e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -155,7 +155,7 @@ hi Special guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE c
 hi SpecialChar guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Tag guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Delimiter guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi SpecialComment guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi SpecialComment guifg=#606060 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Debug guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Underlined guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Ignore guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
