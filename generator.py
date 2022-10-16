@@ -46,6 +46,7 @@ def main():
     green2 = 0x7fc164
     red0 = 0xd41818
     yellow0 = 0xD6D61E
+    yellow1 = 0xfce6b7
     purple0 = 0xc31ed6
     teal0 = 0x00afaf
     blue0 = 0x1e88d6
@@ -213,8 +214,8 @@ def main():
     diagnostics = {}
     diagnostics['DiagnosticError'] = builtin['ErrorMsg']
     diagnostics['DiagnosticWarn'] = builtin['WarningMsg']
-    diagnostics['DiagnosticInfo'] = Hi(Color(purple0, yellow0))
-    diagnostics['DiagnosticHint'] = Hi(Color(purple0, yellow0))
+    diagnostics['DiagnosticInfo'] = Hi(Color(yellow1, None))
+    diagnostics['DiagnosticHint'] = Hi(Color(yellow1, None))
     diagnostics['DiagnosticVirtualTextError'] = diagnostics['DiagnosticError']
     diagnostics['DiagnosticVirtualTextWarn'] = diagnostics['DiagnosticWarn']
     diagnostics['DiagnosticVirtualTextInfo'] = diagnostics['DiagnosticInfo']

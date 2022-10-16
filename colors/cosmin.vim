@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: N/A <N/A>
-" Last Change: 2021:11:06
+" Last Change: 2022:10:16
 
 set bg=dark
 hi clear
@@ -163,21 +163,21 @@ hi Error guifg=#c31ed6 guibg=#d41818 gui=bold guisp=NONE ctermfg=NONE ctermbg=NO
 hi Todo guifg=#c31ed6 guibg=#000000 gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticWarn guifg=#d6d61e guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticInfo guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticHint guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticInfo guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticHint guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticVirtualTextError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticVirtualTextWarn guifg=#d6d61e guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticVirtualTextInfo guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticVirtualTextHint guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticVirtualTextInfo guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticVirtualTextHint guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticUnderlineError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticUnderlineWarn guifg=#d6d61e guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticUnderlineInfo guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticUnderlineHint guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticUnderlineInfo guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticUnderlineHint guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticFloatingError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticFloatingWarn guifg=#d6d61e guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticFloatingInfo guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticFloatingHint guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticFloatingInfo guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticFloatingHint guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticSignError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticSignWarn guifg=#d6d61e guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticSignInfo guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiagnosticSignHint guifg=#c31ed6 guibg=#d6d61e gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticSignInfo guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiagnosticSignHint guifg=#fce6b7 guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
