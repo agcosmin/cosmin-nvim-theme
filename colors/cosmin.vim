@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: N/A <N/A>
-" Last Change: 2022:10:16
+" Last Change: 2022:10:30
 
 set bg=dark
 hi clear
@@ -75,7 +75,7 @@ hi TSConstant guifg=#d6d61e guibg=NONE gui=nocombine guisp=NONE ctermfg=NONE cte
 hi TSConstBuiltin guifg=#d6d61e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSConstMacro guifg=#d6631e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSConstructor guifg=NONE guibg=NONE gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi TSError guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi TSError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSException guifg=#1e88d6 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSField guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi TSFloat guifg=#d6631e guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -159,7 +159,7 @@ hi SpecialComment guifg=#606060 guibg=NONE gui=NONE guisp=NONE ctermfg=NONE cter
 hi Debug guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Underlined guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Ignore guifg=NONE guibg=NONE gui=NONE guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi Error guifg=#c31ed6 guibg=#d41818 gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi Error guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Todo guifg=#c31ed6 guibg=#000000 gui=bold guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticError guifg=#d41818 guibg=NONE gui=underline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiagnosticWarn guifg=#d6d61e guibg=NONE gui=NONEunderline guisp=NONE ctermfg=NONE ctermbg=NONE cterm=NONE

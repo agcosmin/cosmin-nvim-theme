@@ -122,7 +122,7 @@ def main():
     treesitter['TSConstBuiltin'] = Hi(Color(yellow0, None))
     treesitter['TSConstMacro'] = Hi(Color(orange0, None))
     treesitter['TSConstructor'] = Hi(Color(None, None, 'bold'))
-    treesitter['TSError'] = Hi()
+    treesitter['TSError'] = builtin['ErrorMsg']
     treesitter['TSException'] = Hi(Color(blue0, None))
     treesitter['TSField'] = Hi()
     treesitter['TSFloat'] = Hi(Color(orange0, None))
@@ -208,7 +208,7 @@ def main():
     common['Debug'] = Hi()
     common['Underlined'] = Hi()
     common['Ignore'] = Hi()
-    common['Error'] = Hi(Color(purple0, red0, 'bold'))
+    common['Error'] = builtin['ErrorMsg']
     common['Todo'] = Hi(Color(purple0, black, 'bold'))
 
     diagnostics = {}
